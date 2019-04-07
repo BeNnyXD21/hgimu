@@ -1,0 +1,31 @@
+    {
+  "name": "how-good-is-my-username",
+  "version": "0.2.0",
+  "homepage": "https://github.com/BeNnyXD21/hgimu",
+  "authors": [
+    "Benjamin Forster"
+  ],
+  "description": "The \"How Good is My Username?\" username strength meter for your own site",
+  "main": "build/hgimu.min.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "username",
+    "good",
+    "how",
+    "secure",
+    "is",
+    "my",
+    "hgimu",
+    "strength",
+    "meter",
+    "test"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules"
+  ]
+}
