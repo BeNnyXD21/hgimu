@@ -1,0 +1,21 @@
+{
+  "name": "how-good-is-my-username",
+  "version": "0.2.0",
+  "description": "How good is my username?",
+  "author": "BeNnyXD21",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/BeNnyXD21/hgimu.git"
+  },
+  "dependencies": {
+    "hsimp-main": "0.1.9",
+    "hsimp-checks": "0.1.2"
+  },
+  "devDependencies": {
+    "browserify": "8.*",
+    "buster": "0.7.*",
+    "uglify-js": "2.*",
+    "uglifycss": "0.0.11"
+  }
+}
