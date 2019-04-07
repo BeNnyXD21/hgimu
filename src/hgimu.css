@@ -1,0 +1,18 @@
+.hgimu-level {
+    color: #fff;
+    color: rgba(255, 255, 255, 0.9);
+    transition: background 0.5s linear;
+    background-color: #fff;
+}
+
+.hgimu-level--bad, .hgimu-level--insecure {
+    background-color: #C63136;
+}
+
+.hgimu-level--ok {
+    background-color: #DE7B46;
+}
+
+.hgimu-level--good {
+    background-color: #2F8249;
+}
