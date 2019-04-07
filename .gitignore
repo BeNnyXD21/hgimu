@@ -1,0 +1,8 @@
+# Temp files
+hgimu.concat.js
+
+# Node
+node_modules/
+
+# Makefile
+.watch.ref
