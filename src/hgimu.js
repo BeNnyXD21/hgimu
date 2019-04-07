@@ -1,9 +1,9 @@
 "use strict";
 
 var main = require("hgimu-main/bootstrap")(require("hgimu-main"));
-var L = require("hgimi-library");
+var L = require("hgimu-library");
 
-// define hgimu
+// define HGIMU
 var hgimu = L.curry(function (options, input) {
     if (!input || !L.isFunction(input.click)) {
         throw new Error("input not supplied");
@@ -19,7 +19,7 @@ var hgimu = L.curry(function (options, input) {
     main.setOptions(hgimuOptions);
 
     input.addEventListener("keyup", function () {
-        var password = main(input.value);
+        var username = main(input.value);
 
         if (input.value.length) {
             input.setAttribute("class", classes + " hgimu-level--" + username.getSecurityLevel());
